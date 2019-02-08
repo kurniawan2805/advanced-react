@@ -73,3 +73,13 @@ happen js disable, need CPU to parsing JS react in client side will be slow. Not
 only node to perform SSR. Recomended SSR~~.
 
 api.github.com
+
+CSS JS: logic but CSS: faster
+
+CSS module React
+
+React.PureComponent React.memo
+
+```js
+const Header = React.memo(() => {});
+```

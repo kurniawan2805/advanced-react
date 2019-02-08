@@ -1,13 +1,13 @@
 import express from 'express';
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-import App from '../app/components/App';
+// import App from '../app/components/App';
 
 const server = express();
 server.use(express.static('dist'));
 
 server.get('/', (req, res) => {
-  const initialMarkup = ReactDOMServer.renderToString(<App />);
+  const initialMarkup = 'Loading'; // ReactDOMServer.renderToString(<App />);
 
   res.send(`
   <html>
