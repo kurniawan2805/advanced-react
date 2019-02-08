@@ -8,7 +8,9 @@ const App = () => {
       <br />
       <br />
       Here's a button to track how many times you click it:
-      <button onClick={() => setCounter(counter + 1)}> {counter} </button>
+      <br />
+      <br />
+      <button onClick={() => setCounter(counter + 1)}>{counter}</button>
     </div>
   );
 };

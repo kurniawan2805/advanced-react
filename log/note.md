@@ -54,3 +54,22 @@ module.exports = {
 ```
 
 for testing purpose `npm i -D jest babel-jest react-test-renderer`
+
+```javascript
+Warning: render(): Calling ReactDOM.render() to hydrate server-rendered markup will stop working in React v17. Replace the ReactDOM.render() call with ReactDOM.hydrate() if you want React to attach to the server HTML.
+```
+
+Use .hydrate() rather than render() both server and client render same initial
+component when using hydrate() DOM will initially do nothing.
+
+SSR hydrate content in event
+
+if using other server node, lose SSR, only html
+
+not only SEO but performance <https://jscomplete.com/learn>
+
+disable js in client no React and JS so should be browsable without js never
+happen js disable, need CPU to parsing JS react in client side will be slow. Not
+only node to perform SSR. Recomended SSR~~.
+
+api.github.com
